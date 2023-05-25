@@ -9,6 +9,11 @@ body {
     background-color: #252525;
     padding: 3rem;
 }
+@media screen and (max-width:760px) {
+    body {
+       padding: 1rem;
+    }
+}
 .body2 {
     position: absolute;
     top: 100vh;
